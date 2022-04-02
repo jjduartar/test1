@@ -19,5 +19,11 @@ pipeline {
       }
     }
 
+    stage('Ultimo paso') {
+      steps {
+        sh 'ls -ltr'
+      }
+    }
+
   }
 }
