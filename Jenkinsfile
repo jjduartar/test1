@@ -19,5 +19,13 @@ pipeline {
       }
     }
 
+    stage('Ultimo paso') {
+      steps {
+        echo 'Ultimo Paso'
+        sh 'ls -ltr'
+        sh './scripts/memory.sh'
+      }
+    }
+
   }
 }
