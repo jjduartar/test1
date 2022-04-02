@@ -13,5 +13,14 @@ pipeline {
       }
     }
 
+    stage('Exit') {
+      steps {
+        env 'Terminando proyecto'
+      }
+    }
+
   }
 }
+
+
+416916039139815
