@@ -15,7 +15,7 @@ pipeline {
 
     stage('Exit') {
       steps {
-        env 'Terminando proyecto'
+        echo 'Terminando proyecto'
       }
     }
 
