@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Development') {
+      steps {
+        sh 'env'
+      }
+    }
+
   }
 }
